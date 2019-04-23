@@ -13,6 +13,16 @@ Usage: Pansharpening
 Convolutional Autoencoder-Based Multispectral Image Fusion is a new deep learning-based method for multispectral image fusion based on the convolutional autoencoder architecture. For more information, see the following paper:
 > A. Azarang, H. E. Manoochehri, N. Kehtarnavaz, Convolutional Autoencoder-Based Multispectral Image Fusion, IEEE Access. [\[PDF\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8668404)
 
+> __Abstract__: This paper presents a deep learning-based pansharpening method for fusion of panchromatic
+and multispectral images in remote sensing applications. This method can be categorized as a component
+substitution method in which a convolutional autoencoder network is trained to generate original panchromatic
+images from their spatially degraded versions. Low resolution multispectral images are then fed into
+the trained convolutional autoencoder network to generate estimated high resolution multispectral images.
+The fusion is achieved by injecting the detail map of each spectral band into the corresponding estimated high
+resolution multispectral bands. Full reference and no-reference metrics are computed for the images of three
+satellite datasets. These measures are compared with the existing fusion methods whose codes are publicly
+available. The results obtained indicate the effectiveness of the developed deep learning-based method for
+multispectral image fusion.
 
 <p align="center">
 <img src="https://github.com/HafezEM/Pansharpening-ConvolutionalAutoEncoder/blob/master/images/GraphicalAbstract.png" width="800" align="center">
