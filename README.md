@@ -51,17 +51,17 @@ Then, run Auto_Conv.ipynb to train the Convolutional AutoEncoder (CAE) network.
     
 After training the CAE network, the output of the netowrk in response to the LRMS patches is saved as .mat file (MAT-file) to be processed into the fusion framework.
 
-To finalize the fusion process and get the result, run the Fusion.m file in matlab. This MATLAB file will import the estimated high resolution MS patches. The tiling_av.m file will reconstruct the estimated high resoultion MS band using the output of the CAE network. 
+To finalize the fusion process and get the result, run the Fusion.m file in MATLAB. This MATLAB file will import the estimated high resolution MS patches. The tiling_av.m file will reconstruct the estimated high resoultion MS band using the output of the CAE network. 
 
 To do the objective assesmet, do the following: 
     Add objecticve evaluation path to your current directory
     follow the sturcture of using metrics mentioned in the Fusion.m
-    Create a table in Command window and see the results.
+    Create a table in _Command Window_ and see the results.
 
 Requirements
 ------------
 
-The code is written in Python 3 and uses Keras and also Matlab. Recent versions of Tensorflow, sklearn, networkx, numpy, and scipy are required. All the required packages can be installed using the following command:
+The code is written in Python 3 and uses Keras and also MATLAB. Recent versions of Tensorflow, sklearn, networkx, numpy, and scipy are required. All the required packages can be installed using the following command:
     
     $ pip install -r requirements.txt
 
