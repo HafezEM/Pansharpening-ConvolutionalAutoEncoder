@@ -66,25 +66,3 @@ The code is written in Python 3 and uses Keras and also MATLAB. Recent versions 
     $ pip install -r requirements.txt
 
 
-Reference
----------
-
-If you find the code useful, please cite our paper:
-
-    @article{azarang2019convolutional,
-      title={Convolutional Autoencoder-Based Multispectral Image Fusion},
-      author={Azarang, Arian and Manoochehri, Hafez E and Kehtarnavaz, Nasser},
-      journal={IEEE Access},
-      volume={7},
-      pages={35673--35683},
-      year={2019},
-      publisher={IEEE}
-    }
-
-Thanks!
-
-For any questions regarding the paper, the code, the installation and so on, please raise issues or email me. I am happy to help you.
-
-Arian Azarang, azarang@utdallas.edu
-Hafez Eslami Manoochehri, hafez.eslamimanoochehri@utdallas.edu
-
