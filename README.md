@@ -29,7 +29,7 @@ multispectral image fusion.
 </p>
 
 
-How to run
+Getting Started
 ----------
 
 
