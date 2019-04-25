@@ -60,7 +60,7 @@ License and Citation
 ---------
 The codes are licensed under MIT license. 
 
-If you find the code useful, please cite our paper:
+For any utilization of the code content of this repository, the following paper needs to be cited by the user: 
 
 > A. Azarang, H.E. Manoochehri, and N. Kehtarnavaz, “Convolutional Autoencoder-Based Multispectral Image Fusion,” IEEE Access, vol. 7, pp.35673-35683, Mar. 2019.
 
