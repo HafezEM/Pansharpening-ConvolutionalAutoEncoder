@@ -75,7 +75,7 @@ PanWV_DS =  imresize(PanWV, 1/4, 'bicubic');
 
 %% Finding the optimal weigthts of the LRMS bands
 
-W = impGradDes(MSWV_US,PanWV_DS);
+W = impGradDes(MSWV_US,PanWV_db);
 W_1 = W(1);
 W_2 = W(2);
 W_3 = W(3);
@@ -85,7 +85,7 @@ W_4 = W(4);
 
 I = W_1*MSWV_US(:,:,1)+W_2*MSWV_US(:,:,2)+W_3*MSWV_US(:,:,3)+W_4*MSWV_US(:,:,4);
 
-PanWV_DS_2 = (PanWV_DS-mean(PanWV_DS(:)))*std(I(:))/std(PanWV_DS(:)) + mean(I(:));
+%PanWV_DS_2 = (PanWV_DS-mean(PanWV_DS(:)))*std(I(:))/std(PanWV_DS(:)) + mean(I(:));
 
 %% Seperation of LRMS bands
 
@@ -106,9 +106,9 @@ gk_2 = Cov_2(1,2);
 gk_3 = Cov_3(1,2);
 gk_4 = Cov_4(1,2);
 
-%% Primitive deatil map
+%% Primitive detail map
 
-Det = PanWV_DS - I_New;
+Det = PanWV_db - I;
 
 %% Tiling the High resolution LRMS bands
 
