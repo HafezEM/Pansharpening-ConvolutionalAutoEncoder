@@ -51,8 +51,8 @@ PANWV_US = imresize(PANWV_DS, 4, 'bicubic');
 
 %% Preparing the Training Set for the patching
 
-[Patches_PAN_INP, BlX, BlY, PadX, PadY, r, c]  = Partitioning(PANWV_db, Patch_size, overlap);
-[Patches_PAN_TRG, BlX, BlY, PadX, PadY, r, c]  = Partitioning(PANWV_US, Patch_size, overlap);
+[Patches_PAN_INP, BlX, BlY, PadX, PadY, r, c]  = Partitioning(PANWV_US, Patch_size, overlap);
+[Patches_PAN_TRG, BlX, BlY, PadX, PadY, r, c]  = Partitioning(PANWV_db, Patch_size, overlap);
 
 %% Preparing the Test Set for the patching 
 
